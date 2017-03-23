@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="197" height="93">
+    <title>my vector image</title>
+    <rect id="backgroundrect" width="100%" height="100%" x="0" y="0" fill="#FFFFFF" stroke="none" class="" />
+    <g class="currentLayer">
+        <rect fill="#cc931a" stroke="none" stroke-width="2" stroke-linejoin="round" stroke-dashoffset="" fill-rule="nonzero" id="sign" x="2" y="63" width="192" height="27" style="color: rgb(21, 129, 237);" class="" fill-opacity="1" filter="url(#f151)" />
+        <path fill="#000000" fill-opacity="1" stroke="#222222" stroke-opacity="1" stroke-width="2" stroke-dasharray="none" stroke-linejoin="round" stroke-linecap="butt" stroke-dashoffset="" fill-rule="nonzero" opacity="1" marker-start="" marker-mid="" marker-end="" d="M48.82331832330355,61.15037844779343 L95.43985817250288,4.7594028237619455 " id="sign" class="" filter="" />
+        <path fill="#000000" fill-opacity="1" stroke="#222222" stroke-opacity="1" stroke-width="2" stroke-dasharray="none" stroke-linejoin="round" stroke-linecap="butt" stroke-dashoffset="" fill-rule="nonzero" opacity="1" marker-start="" marker-mid="" marker-end="" d="M121.7556467970509,61.15037844779343 L94.68797849751579,5.51128249874904 " id="sign" class="" filter="" />
+        <foreignObject fill="none" stroke="#222222" stroke-width="2" stroke-linejoin="round" stroke-dashoffset="" fill-rule="nonzero" font-size="28" font-family="Georgia, serif" letter-spacing="0" word-spacing="0" marker-start="" marker-mid="" marker-end="" id="sign" x="20.03757095336914" y="62.27824401855469" width="167.8797149658203" height="28.052629470825195" style="color: rgb(0, 0, 0);" class="">
+            <p style="border: none;outline: none;font-size: inherit;line-height: 1em;padding:0;margin:0;" xmlns="http://www.w3.org/1999/xhtml">
+                <p xmlns="http://www.w3.org/1999/xhtml" style="font-size: inherit;line-height: 1em;padding:0;margin:0;"></p>
+                <h3 id="button1" class="heading" style="font-size: inherit;line-height: 1em;padding:0;margin:0;">DEVELOPER</h3>
+                <p style="font-size: inherit;line-height: 1em;padding:0;margin:0;"></p>
+            </p>
+        </foreignObject>
+        <path fill="#000000" fill-opacity="1" stroke="#222222" stroke-opacity="1" stroke-width="2" stroke-linejoin="round" stroke-linecap="butt" stroke-dashoffset="" fill-rule="nonzero" opacity="1" marker-start="" marker-mid="" marker-end="" d="M0.9999980596190454,62.033826379645916 L195.73683388127438,62.033826379645916 " id="sign" class="" filter="" />
+        <path fill="#000000" fill-opacity="1" stroke="#222222" stroke-opacity="1" stroke-width="2" stroke-linejoin="round" stroke-linecap="butt" stroke-dashoffset="" fill-rule="nonzero" opacity="1" marker-start="" marker-mid="" marker-end="" d="M1.4511260656004907,91.05638268457756 L196.18796188725582,91.05638268457756 " class="" id="sign" filter="" />
+        <path fill="#000000" fill-opacity="1" stroke="#222222" stroke-opacity="1" stroke-width="2" stroke-linejoin="round" stroke-linecap="butt" stroke-dashoffset="" fill-rule="nonzero" opacity="1" marker-start="" marker-mid="" marker-end="" d="M1.751877905549037,62.033826738547475 L0.999998230561971,92.10901373803091 " id="sign" class="" transform="rotate(-0.8184554576873779 1.3759384155304943,77.0714111328125) " filter="" />
+        <path fill="#000000" fill-opacity="1" stroke="#222222" stroke-opacity="1" stroke-width="2" stroke-linejoin="round" stroke-linecap="butt" stroke-dashoffset="" fill-rule="nonzero" opacity="1" marker-start="" marker-mid="" marker-end="" d="M194.98495517791673,62.033826946306704 L194.98495517791673,91.35713409154096 " id="sign" class="" filter="" />
+        <rect stroke="#1581ed" stroke-width="2" stroke-linejoin="round" stroke-dashoffset="" fill-rule="nonzero" id="sign" x="2" y="62" width="0" height="1" style="color: rgb(21, 129, 237);" />
+    </g>
+    <defs>
+        <style>
+        #sign {
+            stroke-dasharray: 800;
+            stroke-dashoffset: 0;
+            animation: dash 5s linear forwards;
+        }
+        
+        @-webkit-keyframes dash {
+            from {
+                stroke-dashoffset: 800;
+            }
+            to {
+                stroke-dashoffset: 0;
+            }
+        }
+        #button1 {
+            font-family: "Courier";
+            margin-top: 10px;
+            white-space: normal;
+            overflow: hidden;
+            width: 300px;
+        }
+        
+        h3,
+        li:nth-child(2) {
+            animation: type2 2s steps(60, end);
+        }
+        
+        @keyframes type2 {
+            0% {
+                width: 0;
+            }
+            50% {
+                width: 0;
+            }
+            100% {
+                width: 10;
+            }
+        }
+        </style>
+    </defs>
+    <filter id="f151" inkscape:menu-tooltip="3D warped, fibered wood texture" inkscape:menu="Materials" inkscape:label="3D wood" height="1.5" y="-.25" width="1.5" x="-.25" color-interpolation-filters="sRGB">
+        <feGaussianBlur result="result8" stdDeviation="4" />
+        <feTurbulence baseFrequency="0.025 0.2" numOctaves="3" type="fractalNoise" result="result7" seed="22" />
+        <feComposite in2="result8" operator="in" in="SourceGraphic" result="result6" />
+        <feDisplacementMap in2="result6" result="result4" scale="50" yChannelSelector="A" xChannelSelector="A" in="result7" />
+        <feFlood flood-color="#e6d38a" flood-opacity="1" in="result4" />
+        <feComposite in2="result4" operator="atop" result="result2" />
+        <feComposite in2="SourceGraphic" operator="atop" in="result2" result="result9" />
+        <feGaussianBlur result="result0" in="result9" stdDeviation="8" />
+        <feSpecularLighting specularExponent="15" specularConstant=".7" surfaceScale="5" lighting-color="#fff" result="result1" in="result0">
+            <feDistantLight azimuth="235" elevation="50" />
+        </feSpecularLighting>
+        <feComposite operator="in" result="result2" in="result1" in2="result9" />
+        <feComposite k3=".5" k2=".5" operator="arithmetic" result="result4" in="result9" in2="result2" />
+        <feConvolveMatrix order="3 3" kernelMatrix="2 0 0 0 2 0 0 0 -2 " targetX="2" targetY="2" result="result10" />
+        <feBlend mode="multiply" in="result10" in2="result10" />
+    </filter>
+</svg>
